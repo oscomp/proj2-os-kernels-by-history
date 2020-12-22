@@ -10,7 +10,7 @@
 - 在实验阶段上，大致仿照OS的发展历史来分阶段，每个lab都算是一个历史阶段的OS的缩影，并有多个step组成，解决一两个明确的应用需求。
 - 对实现的具体细节不限，只要能通过有明确操作系统服务接口描述的应用测实例即可算完成实验。
 
-当前项目实现源码等：https://github.com/rcore-os/rCore-Tutorial-v3
+当前项目实现源码（基于Rust语言）等：https://github.com/rcore-os/rCore-Tutorial-v3
 
 ### 所属赛道
 
