@@ -45,7 +45,7 @@
 ### 文档
 
 - [中文实验指导](https://rcore-os.github.io/rCore-Tutorial-Book-v3/)
-- [中文介绍ppt]()
+- [中文介绍ppt](rCore-Tutorial.pdf)
 
 ### 平台实现的注意事项
 
