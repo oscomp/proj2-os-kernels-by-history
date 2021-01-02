@@ -1,4 +1,4 @@
-# proj2-oslabs-by-history
+# proj2-os-kernels-by-history
 
 ### 项目描述
 当前大学本科学生做OS实验面临工作量大，实验指导针对性不够强，难以对OS有整体理解等困难。为此，我们希望重新设计面向一般学生的 OS Labs。
