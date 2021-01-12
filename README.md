@@ -12,7 +12,7 @@
 - 在实验阶段上，大致仿照OS的发展历史来分阶段，每个OS kernel都算是一个历史阶段的OS的缩影，并有多个step组成，解决一两个明确的应用需求。
 - 对实现的具体细节不限，只要能通过有明确操作系统服务接口描述的应用测实例即可算完成实验。
 
-当前项目实现源码：
+### 当前项目相关的实现源码：
 - （基于Rust语言）：https://github.com/rcore-os/rCore-Tutorial-v3
 - （基于C语言）：https://github.com/DeathWish5/appdir
 - 各种实验尝试：https://github.com/chyyuu/os_kernel_lab 中各种包含“v4”的branch，与下面的第0题相关
