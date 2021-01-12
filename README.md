@@ -46,6 +46,7 @@
 
 ### 文档
 - [从零开始基于 Rust 写 OS 的学习指导（无需 Rust 和 RISC-V 基础）](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
+- [R:Z 从零开始的RustOS编写体验指南](https://simonkorl.gitbook.io/r-z-rustos-guide/)
 - [中文实验指导](https://rcore-os.github.io/rCore-Tutorial-Book-v3/)
 - [中文介绍ppt](rCore-Tutorial.pdf)
 
