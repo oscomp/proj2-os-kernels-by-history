@@ -15,7 +15,7 @@
 当前项目实现源码：
 - （基于Rust语言）：https://github.com/rcore-os/rCore-Tutorial-v3
 - （基于C语言）：https://github.com/DeathWish5/appdir
-- 各种实验尝试：https://github.com/chyyuu/os_kernel_lab 中各种包含“v4”的branch
+- 各种实验尝试：https://github.com/chyyuu/os_kernel_lab 中各种包含“v4”的branch，与下面的第0题相关
 
 ### 所属赛道
 
