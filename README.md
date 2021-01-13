@@ -50,6 +50,7 @@
 - [中文实验指导](https://rcore-os.github.io/rCore-Tutorial-Book-v3/)
 - [中文介绍ppt](rCore-Tutorial.pdf)
 - [Philipp Oppermann写的"Writing an OS in Rust"中文版](https://os.phil-opp.com/zh-CN/)
+- [Rust no-std常见问题 en](https://justjjy.com/Rust-no-std)
 
 ### 平台实现的注意事项
 
