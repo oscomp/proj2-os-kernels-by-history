@@ -49,6 +49,7 @@
 - [R:Z 从零开始的RustOS编写体验指南](https://simonkorl.gitbook.io/r-z-rustos-guide/)
 - [中文实验指导](https://rcore-os.github.io/rCore-Tutorial-Book-v3/)
 - [中文介绍ppt](rCore-Tutorial.pdf)
+- [Philipp Oppermann写的"Writing an OS in Rust"中文版](https://os.phil-opp.com/zh-CN/)
 
 ### 平台实现的注意事项
 
