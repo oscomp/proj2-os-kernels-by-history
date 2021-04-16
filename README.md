@@ -51,6 +51,7 @@
 - [中文介绍ppt](rCore-Tutorial.pdf)
 - [Philipp Oppermann写的"Writing an OS in Rust"中文版](https://os.phil-opp.com/zh-CN/)
 - [Rust no-std常见问题 en](https://justjjy.com/Rust-no-std)
+- [zcore](https://github.com/rcore-os/zCore)
 
 ### 平台实现的注意事项
 
@@ -114,4 +115,25 @@
 - 在QEMU（RV-64）和Kendryte K210开发板上，设计各种Bugs或更小粒度的steps，来帮助学生更好理解和完成各种OS kernel的实现；
 - 实现OS kernel上的简化的lib库，并让更多的教学应用（如教学用的编译器，教学用网络协议栈，教学用算法/数据结构，教学用database等）能运行在这个OS kernel上；
 - 撰写OS kernel设计与分析文档。
+
+
+### 第六题：Rust Std就是OS kernel
+在操作系统的发展史上，C语言是为UNIX而生的，也许Rust语言也可以为新一代的OS而生。要达到这一点，我们可以试试能否把Rust的基础库直接放到OS内核中，这样让Rust编译器直接编译出各种
+基于Rust Std库的内核模块，为新一代的OS添砖加瓦。
+
+- 让Rust Std绕过系统调用成为OS kernel的核心层；
+- 可以在[zcore](https://github.com/rcore-os/zCore)或其他操作系统上进行实现；
+- 撰写OS kernel设计与分析文档。
+
+#### 相关参考
+- [rusty-hermit](https://github.com/hermitcore/rusty-hermit)
+  - [rusty-hermit portal](https://rust-osdev.com/showcase/rusty-hermit/)
+  - [paper:RustyHermit: A Scalable, Rust-Based Virtual Execution Environment](https://link.springer.com/chapter/10.1007/978-3-030-59851-8_22)
+  - [paper:Exploring Rust for Unikernel Development](https://dl.acm.org/doi/pdf/10.1145/3365137.3365395)
+- [Theseus: an Experiment in Operating System Structure and State Management](https://www.usenix.org/system/files/osdi20-boos.pdf) 
+  - [Theseus OS project](https://github.com/theseus-os/Theseus),Kevin Boos, Rice University; Namitha Liyanage, Yale University; Ramla Ijaz, Rice University; Lin Zhong, Yale University, - OSDI 2020  
+- [The benefits and costs of writing a POSIX kernel in a high-level language](https://pdos.csail.mit.edu/papers/biscuit.pdf),Cody Cutler, M. Frans Kaashoek, and Robert T. Morris,OSDI 2018    
+  - the biscuit POSIX-like OS in GO language
+  - [biscuit os project](https://pdos.csail.mit.edu/projects/biscuit.html)
+- [rust std syscall 简单分析](https://github.com/DeathWish5/SomeBlogs/blob/master/rust%20std%20syscall%20%E5%88%86%E6%9E%90.md)
 
