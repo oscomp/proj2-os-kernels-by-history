@@ -14,7 +14,7 @@
 
 ### 当前项目相关的实现源码：
 - （基于Rust语言）：https://github.com/rcore-os/rCore-Tutorial-v3
-- （基于C语言）：https://github.com/DeathWish5/appdir
+- （基于C语言）：https://github.com/DeathWish5/ucore-Tutorial
 - 各种实验尝试：https://github.com/chyyuu/os_kernel_lab 中各种包含“v4”的branch，与下面的第0题相关
 
 ### 所属赛道
@@ -45,13 +45,15 @@
 - 支持 Kendryte K210（含MMU和S模式）
 
 ### 文档
+- [中文介绍ppt](rCore-Tutorial.pdf)
 - [从零开始基于 Rust 写 OS 的学习指导（无需 Rust 和 RISC-V 基础）](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code)
 - [R:Z 从零开始的RustOS编写体验指南](https://simonkorl.gitbook.io/r-z-rustos-guide/)
-- [中文实验指导](https://rcore-os.github.io/rCore-Tutorial-Book-v3/)
-- [中文介绍ppt](rCore-Tutorial.pdf)
+- [rCore-Tutorial-v3 文档（Rust 语言）](https://rcore-os.github.io/rCore-Tutorial-Book-v3/)
 - [Philipp Oppermann写的"Writing an OS in Rust"中文版](https://os.phil-opp.com/zh-CN/)
 - [Rust no-std常见问题 en](https://justjjy.com/Rust-no-std)
 - [zcore](https://github.com/rcore-os/zCore)
+- [uCore-Tutorial 文档（C 语言）](https://github.com/DeathWish5/ucore-Tutorial-Book)
+- [uCore-riscv64 文档（C 语言）](https://nankai.gitbook.io/ucore-os-on-risc-v64)
 
 ### 平台实现的注意事项
 
